@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Switch, Route, BrowserRouter, NavLink } from "react-router-dom";
 import { CmsDriven } from "@cmsdriven/react";
 import NonCmsPage from "./components/nonCmsPage";
+// eslint-disable-next-line
 import Footer from "./components/Footer";
 
 import AppBar from "@material-ui/core/AppBar";
@@ -40,8 +41,9 @@ function App() {
               cmsdriven page
             </NavLink>
 
-            <NavLink exact={true} style={{ color: "white",textDecoration: "none",
- }} to="/non-cms">
+            <NavLink exact={true} style={{
+              color: "white", textDecoration: "none",
+            }} to="/non-cms">
               without cms page
             </NavLink>
           </Toolbar>
