@@ -16,6 +16,6 @@ export default {
 
 export const BasicFooter = () => {
   return (
-   <Footer></Footer>
+    <Footer></Footer>
   );
 };

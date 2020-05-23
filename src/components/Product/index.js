@@ -22,7 +22,7 @@ const Product = props => {
 
   return (
     <Card>
-        <CardMedia
+      <CardMedia
         className={classes.media}
         image={props.image}
         title="Paella dish"
@@ -31,9 +31,9 @@ const Product = props => {
         <Typography gutterBottom variant="h5" component="h2">
           {props.title}
         </Typography>
-        <Typography  dangerouslySetInnerHTML={{
-            __html: props.paragraph
-          }}>
+        <Typography dangerouslySetInnerHTML={{
+          __html: props.paragraph
+        }}>
         </Typography>
       </CardContent>
       <CardActions>
