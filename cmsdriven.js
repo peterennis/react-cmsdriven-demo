@@ -4,8 +4,8 @@ import ProductList from "./src/components/ProductList";
 import Hero from "./src/components/Hero";
 
 export default {
-  Product:Product,
+  Product: Product,
   ProductList: ProductList,
-  Hero:Hero,
+  Hero: Hero,
   NotFound: NotFound,
 };

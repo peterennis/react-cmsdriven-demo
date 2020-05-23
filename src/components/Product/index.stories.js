@@ -14,7 +14,7 @@ export default {
 
 export const BasicProductList = () => {
   return (
-    <div style={{width:'350px',height:"200px"}}>
+    <div style={{ width: '350px', height: "200px" }}>
       <Product
         title={text("heading", "Smart shoe")}
         paragraph={text(
