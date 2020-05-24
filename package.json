@@ -16,11 +16,13 @@
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^10.0.4",
     "@testing-library/user-event": "^10.3.4",
+    "awesome-typescript-loader": "^5.2.1",
     "generact": "^0.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
+    "source-map-loader": "^0.2.4",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
