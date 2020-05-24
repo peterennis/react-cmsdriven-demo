@@ -16,6 +16,7 @@
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^10.0.4",
     "@testing-library/user-event": "^10.3.4",
+    "@types/react": "^16.9.35",
     "awesome-typescript-loader": "^5.2.1",
     "generact": "^0.4.0",
     "react": "16.13.1",
@@ -39,6 +40,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "webpack --config webpack.config.js",
+    "buildtest": "webpack src/index.ts -o dist/bundle.js",
     "zzzbuild": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
