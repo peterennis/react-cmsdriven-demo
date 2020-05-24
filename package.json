@@ -31,7 +31,8 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "typescript": "3.9.3"
+    "typescript": "3.9.3",
+    "webpack": "^4.43.0"
   },
   "scripts": {
     "start": "react-scripts start",
