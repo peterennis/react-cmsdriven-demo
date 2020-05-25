@@ -8,7 +8,7 @@ const FooterSticky = styled.footer`
   width: 100%;
 `;
 
-const CallToAction = props => {
+const CallToAction = (props: any) => {
   return (
     <FooterSticky>
       <Typography variant="h6" align="center" gutterBottom>
