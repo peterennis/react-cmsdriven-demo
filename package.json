@@ -40,7 +40,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "webpack --config webpack.config.js",
-    "buildtest": "webpack src/index.ts -o dist/bundle.js",
+    "buildtest": "webpack src/index.tsx -o dist/bundle.js",
     "zzzbuild": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
