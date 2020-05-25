@@ -5,11 +5,11 @@ import {
 } from "@material-ui/core";
 import Product from "../Product";
 
-const ProductList = props => {
+const ProductList = (props: { products: any[]; }) => {
   return (
     <Container maxWidth="md">
       <Grid container spacing={4}>
-        {props.products.map((product, index) => (
+        {props.products.map((product: JSX.IntrinsicAttributes, index: React.ReactText) => (
           <Grid item key={index} xs={12} sm={6} md={4}>
             <Product {...product}></Product>
           </Grid>
