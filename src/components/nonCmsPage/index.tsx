@@ -1,6 +1,6 @@
 import React from "react";
 
-const NonCmsPage = props => (
+const NonCmsPage = (props: any) => (
   <section className="fdb-block">
     <div className="container">
       <div className="row">
