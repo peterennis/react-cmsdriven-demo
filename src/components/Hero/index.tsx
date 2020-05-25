@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { Typography, Container, Grid, Button } from "@material-ui/core";
 
-const Hero = props => {
+const Hero = (props: { title: any; paragraph: any; firstCTA: any; secondCTA: any; }) => {
   return (
     <div>
       <Container maxWidth="sm">
