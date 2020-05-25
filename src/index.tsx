@@ -2,27 +2,29 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Switch, Route, BrowserRouter, NavLink } from "react-router-dom";
 import { CmsDriven } from "@cmsdriven/react";
-import NonCmsPage from "./components/nonCmsPage";
+import { NonCmsPage } from "./components/nonCmsPage";
 // eslint-disable-next-line
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 
-import AppBar from "@material-ui/core/AppBar";
-import StoreIcon from "@material-ui/icons/Store";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+//import AppBar from "@material-ui/core/AppBar";
+//import StoreIcon from "@material-ui/icons/Store";
+//import CssBaseline from "@material-ui/core/CssBaseline";
+//import Toolbar from "@material-ui/core/Toolbar";
+//import Typography from "@material-ui/core/Typography";
+
+import { AppBar, CssBaseline, StoreIcon, Toolbar, Typography } from "@material-ui/core";
 
 function App() {
   return (
     <BrowserRouter>
       <React.Fragment>
         <CssBaseline />
-        <AppBar position="relative">
+        <AppBar position="relative" >
           <Toolbar>
             <StoreIcon />
-            <Typography variant="h6" color="inherit" noWrap>
+            <Typography variant="h6" color="inherit" noWrap >
               Elegant Store
-            </Typography>
+          </Typography>
 
             <NavLink
               exact={true}
@@ -36,19 +38,18 @@ function App() {
                 borderRadius: "10px",
                 margin: "20px"
               }}
-              to="/store"
-            >
+              to="/store" >
               cmsdriven page
-            </NavLink>
+    </NavLink>
 
             <NavLink exact={true} style={{
               color: "white", textDecoration: "none",
-            }} to="/non-cms">
+            }} to="/non-cms" >
               without cms page
-            </NavLink>
+    </NavLink>
           </Toolbar>
         </AppBar>
-        <Switch>
+        <Switch >
           <Route path="/" exact component={NonCmsPage} />
           <Route path="/non-cms" exact component={NonCmsPage} />
           <Route
